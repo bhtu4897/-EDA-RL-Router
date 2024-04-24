@@ -70,7 +70,7 @@ def goal_distance(point1, point2):
 # A*路徑規劃算法的實現
 class Astar:
     def __init__(self, map_size, start, goal):
-         self.size = map_size  # 地圖尺寸
+        self.size = map_size  # 地圖尺寸
         self.path = None  # 儲存最終路徑
         self.start = start  # 起始位置
         self.current = self.start  # 當前位置
