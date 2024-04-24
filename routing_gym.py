@@ -1,3 +1,5 @@
+# routing_gym.py：用於在 2D 網格世界上進行路由的 RL 環境。
+
 import gym
 from gym import spaces
 import numpy as np
