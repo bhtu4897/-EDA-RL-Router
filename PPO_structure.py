@@ -1,3 +1,6 @@
+
+# PPO_structure.py：使用 PPO 演算法實現的 RL 代理。
+
 import torch
 import torch.nn as nn
 from torch.nn import functional as F
