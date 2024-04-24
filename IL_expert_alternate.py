@@ -1,3 +1,6 @@
+
+# IL_expert_alternate：使用 A* 演算法產生專家策略。
+
 import numpy as np
 import matplotlib.pyplot as plt
 import heapq
