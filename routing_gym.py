@@ -3,7 +3,7 @@ from gym import spaces
 import numpy as np
 from copy import deepcopy
 
-
+#這個環境是一個多智能體路徑規劃問題的仿真器，用於研究多智能體如何在一個網格地圖上找到最佳路徑以達到各自的目標。
 
 
 class State(object):
