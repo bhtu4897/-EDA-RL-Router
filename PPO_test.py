@@ -1,3 +1,6 @@
+
+# PPO_test.py：測試程式碼。結果可以在網格地圖上可視化。
+
 import torch
 from Net import ACNetwork
 from routing_gym import RoutingEnv
