@@ -1,3 +1,6 @@
+
+# BC_train.py：使用行為複製的預訓練程式碼。如果 CUDA 可用，訓練預設在 GPU 上運行，也可以在 CPU 上訓練，但速度要慢得多。
+
 import numpy as np
 import torch
 from Net import ACNetwork # 導入神經網絡模型
