@@ -14,13 +14,13 @@ if __name__ == "__main__":
     num_agents = 5 # 環境中的智能體數量
 
     # 生成環境的起始和終止位置
-    start_pos, end_pos = generate_coordinates()
+    start_pos, end_pos = generate_coordinates() # 生成隨機座標點
     env = RoutingEnv(start_pos, end_pos) # 創建環境對象
     max_step = env.wsize ** 2 # 每個回合的最大步數（基於環境大小）
 
     device = torch.device('cuda') # 如果可用，使用GPU
     PPO_model = ACNetwork().to(device) # 創建神經網絡模型
-    #PPO_model.load_state_dict(torch.load('IL_agent.pt')) # 加載預訓練模型權重（如果有）
+    #PPO_model.load_state_dict(torch.load('IL_agent.pt')) # 加載預訓練模型權重
 
     # ----------------------------------------- #
     # 參數設置
